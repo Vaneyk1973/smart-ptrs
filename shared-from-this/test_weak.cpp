@@ -1,9 +1,10 @@
 #include "shared.h"
 #include "weak.h"
 
-#include <common/my_int.h>
+#include <../common/my_int.h>
 
-#include <catch.hpp>
+#include "catch2/catch_test_macros.hpp"
+
 
 #include "allocations_checker.h"
 
